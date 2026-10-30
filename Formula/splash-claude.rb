@@ -10,13 +10,13 @@ end
 class SplashClaude < Formula
   desc "Local inference engine for Apple silicon, built around the model"
   homepage "https://github.com/pcvelz/splash-claude"
-  url "https://github.com/pcvelz/splash-claude/releases/download/1.5.0.1/splash-1.5.0.1-arm64-macos26.tar.gz"
-  sha256 "7d14a6620aaa1e52c44dcbe6328aa1eb4792f253f89bdd607a2de9be06532ace"
+  url "https://github.com/pcvelz/splash-claude/releases/download/1.5.0.2/splash-1.5.0.2-arm64-macos26.tar.gz"
+  sha256 "1c121afba3b60c49b7536d049efb6bf2bb3da720b78d93915b658b566b8cde81"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/pcvelz/splash-claude/releases/download/1.5.0.1"
-    sha256 arm64_golden_gate: "c6de1ac59397e70b83f8f79c059bdc86cca01c44d3e77afe24e4577f15b3794e"
+    root_url "https://github.com/pcvelz/splash-claude/releases/download/1.5.0.2"
+    sha256 arm64_golden_gate: "12bcc88fdf02108fff782768aa88bf82fa6aee6896de8deb05b7b01249890d39"
   end
 
   depends_on arch: :arm64
