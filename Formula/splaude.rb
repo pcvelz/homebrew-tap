@@ -10,13 +10,13 @@ end
 class Splaude < Formula
   desc "Local inference engine for Apple silicon, built around the model"
   homepage "https://github.com/pcvelz/splaude"
-  url "https://github.com/pcvelz/splaude/releases/download/1.6.0/splash-1.6.0-arm64-macos26.tar.gz"
-  sha256 "0e0c3a6eeeaab7c80cf9177c223e8f675beed9ac1214c8f1bb9a70a2f91c2fa0"
+  url "https://github.com/pcvelz/splaude/releases/download/1.6.1/splash-1.6.1-arm64-macos26.tar.gz"
+  sha256 "727ca5b2c3e5c1cfc4a179951cc7c254099a324098635c1d841feea43e957125"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/pcvelz/splaude/releases/download/1.6.0"
-    sha256 arm64_golden_gate: "782b606a8ddd9c17dad3330fe8d024f22a3b0cba0eea40ac08acdf75a653c1c2"
+    root_url "https://github.com/pcvelz/splaude/releases/download/1.6.1"
+    sha256 arm64_golden_gate: "859477700707b3887164c19f213cbd07e2527e1603fc2307375655e528c1f49a"
   end
 
   depends_on arch: :arm64
