@@ -1,6 +1,6 @@
 cask "splaude-app" do
-  version "1.6.2"
-  sha256 "043f1ec38b2cf27aa329bb1c85bb877692d7f91a623c85ef9858e248212f293c"
+  version "1.8.0"
+  sha256 "b2d9f040406581cf0c32acaf9c7c232f41271473852fee4158c5787504430a77"
 
   url "https://github.com/pcvelz/splaude/releases/download/#{version}/Splash-#{version}.dmg"
   name "Splash"
